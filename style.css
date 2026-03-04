@@ -46,8 +46,6 @@ transition: .5s;
 .navbar ul li.active a {
 color: #7cf03d;|
 }
-
-
 .home {
 display: flex;
 align-items: center;
@@ -56,21 +54,6 @@ color: #fff;
     justify-content: space-between;
     flex-direction: row-reverse; /* ئەمە شوێنیان دەگۆڕێت */
     padding: 60px 9% 0;
-}
-@media screen and (max-width: 768px) {
-    .home {
-        flex-direction: column;  /* وێنە سەرەوە، نووسین لە ژێرەوە */
-        text-align: center;
-        padding: 20px 5%;
-    }
-
-    .home-info h1, .home-info h2, .home-info p {
-        text-align: center;
-    }
-
-    .home-img {
-        margin-top: 20px;
-    }
 }
 .home-info {
     opacity: 0;
